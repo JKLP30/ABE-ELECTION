@@ -1,0 +1,42 @@
+
+footer{
+	background: #1e00b4;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+    margin-top: 80px;
+}
+
+/*content*/
+.home-section h2, .home-section p{
+    text-align: center;
+}
+
+.announcement {
+	height: 310px;
+	overflow: auto;
+}
+
+@media print {
+	/* styles go here */
+	.paginationTable {
+		display: none;
+	}
+	#btnNewEval{
+		display: none;
+	}
+	
+	.search {
+		display: none;
+	}
+	#print {
+		display: none;
+	}
+	.PrintForm{
+		display: none;
+	}
+}
+.panel-default>.panel-heading {
+   background-color: #3498db!important;
+    color: white!important;
+}
